@@ -48,6 +48,9 @@ SELECT
 FROM RiskEvaluated
 GROUP BY merchant_category
 ORDER BY high_risk_count DESC;
+## 📈 Key Insights & Strategic Recommendations
+* **High-Risk Channels:** Crypto exchanges and luxury goods categories show elevated high-risk counts when combined with international flags and amount outliers.
+* **Operational Recommendation:** Route transactions flagged as *High Risk* through automated multi-factor authentication (MFA) challenges rather than outright blocking to protect user retention.
 financial-fraud-risk-analytics/
 ├── financial_fraud_analysis.ipynb   # Main analysis notebook
 └── README.md                        # Project documentation
